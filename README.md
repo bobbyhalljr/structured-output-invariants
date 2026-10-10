@@ -17,7 +17,7 @@ npm test
 
 The command builds TypeScript before running 18 deterministic fixture checks. See [exact full output](test-output.txt). The final line is `Checks passed: 18/18`. Any unexpected reason throws and fails the command.
 
-[Read the illustrated article](article.md). The live article URL will be added after publication.
+[Read the illustrated article](article.md). [Read the live DEV article](https://dev.to/bobbyhalljr/your-json-is-valid-your-invoice-is-wrong-build-a-semantic-gate-in-typescript-32c5).
 
 ## Files
 
