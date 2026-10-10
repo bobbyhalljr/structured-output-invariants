@@ -1,0 +1,27 @@
+
+> structured-output-invariants@1.0.0 test
+> npm run build && node dist/demo.js
+
+
+> structured-output-invariants@1.0.0 build
+> tsc
+
+valid: accepted
+wrong total: total_mismatch
+invented SKU: unknown_sku
+changed price: price_mismatch
+duplicate SKU: duplicate_sku
+fractional quantity: line_shape
+zero quantity: line_shape
+string money: shape
+wrong currency: shape
+extra root key: shape
+extra line key: line_shape
+empty lines: shape
+unsafe integer: shape
+overflow: arithmetic_overflow
+null: shape
+too many lines: shape
+malformed JSON: invalid_json
+input limit: input_limit
+Checks passed: 18/18
