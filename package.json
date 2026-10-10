@@ -1,0 +1,1 @@
+{"name":"structured-output-invariants","version":"1.0.0","private":true,"scripts":{"build":"tsc","test":"npm run build && node dist/demo.js"},"devDependencies":{"typescript":"5.9.3"}}
